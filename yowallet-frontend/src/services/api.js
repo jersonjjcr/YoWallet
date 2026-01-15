@@ -1,4 +1,5 @@
-const API_URL = 'http://localhost:5050/api/transactions'
+const API_URL = 'https://yowallet.onrender.com/api'
+
 
 export const getTransactions = async () => {
   const res = await fetch(API_URL)
